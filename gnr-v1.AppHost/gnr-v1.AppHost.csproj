@@ -13,11 +13,13 @@
 
   <ItemGroup>
     <ProjectReference Include="..\gnr-v1.ApiService\gnr-v1.ApiService.csproj" />
+    <ProjectReference Include="..\gnr-v1.UI\gnr-v1.UI.esproj" />
     <ProjectReference Include="..\gnr-v1.Web\gnr-v1.Web.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Aspire.Hosting.AppHost" Version="9.0.0" />
+    <PackageReference Include="Aspire.Hosting.NodeJs" Version="9.1.0" />
     <PackageReference Include="Aspire.Hosting.Redis" Version="9.0.0" />
   </ItemGroup>
 
